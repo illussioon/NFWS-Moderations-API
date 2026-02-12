@@ -1,0 +1,36 @@
+```
+# Go-specific ignores
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+*.test
+*.prof
+cover.out
+
+# Dependencies
+vendor/
+
+# Build artifacts
+bin/
+pkg/
+*.mod
+*.sum
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+```
